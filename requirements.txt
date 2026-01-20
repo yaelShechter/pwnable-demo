@@ -1,0 +1,2 @@
+flask>=2.2
+pwntools>=4.10
