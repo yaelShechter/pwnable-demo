@@ -42,5 +42,27 @@ CHALLENGES = {
         'ssh_port': 2222,
         'ssh_user': 'asm',
         'ssh_pass': 'guest'
+    },
+    'unlink': {
+        'name': 'unlink',
+        'track': 'Rookiss',
+        'points': 25,
+        'tags': ['Heap Exploitation', 'Unlink Corruption', 'Stack Pivot'],
+        'description': 'Exploit heap unlink corruption to achieve arbitrary write and redirect control flow. Use stack pivot technique to execute shell function.',
+        'ssh_host': 'pwnable.kr',
+        'ssh_port': 2222,
+        'ssh_user': 'unlink',
+        'ssh_pass': 'guest'
+    },
+    'syscall': {
+        'name': 'syscall',
+        'track': 'Rookiss',
+        'points': 200,
+        'tags': ['Kernel', 'Syscall Table', 'Privilege Escalation'],
+        'description': 'Hijack the syscall table to redirect custom syscalls to kernel functions prepare_creds() and commit_creds() for privilege escalation.',
+        'ssh_host': 'pwnable.kr',
+        'ssh_port': 2222,
+        'ssh_user': 'syscall',
+        'ssh_pass': 'guest'
     }
 }

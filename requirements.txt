@@ -1,2 +1,4 @@
-flask>=2.2
-pwntools>=4.10
+Flask==3.0.0
+pwntools==4.11.0
+paramiko==3.4.0
+gunicorn==21.2.0
