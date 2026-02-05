@@ -54,15 +54,4 @@ CHALLENGES = {
         'ssh_user': 'unlink',
         'ssh_pass': 'guest'
     },
-    'syscall': {
-        'name': 'syscall',
-        'track': 'Rookiss',
-        'points': 200,
-        'tags': ['Kernel', 'Syscall Table', 'Privilege Escalation'],
-        'description': 'Hijack the syscall table to redirect custom syscalls to kernel functions prepare_creds() and commit_creds() for privilege escalation.',
-        'ssh_host': 'pwnable.kr',
-        'ssh_port': 2222,
-        'ssh_user': 'syscall',
-        'ssh_pass': 'guest'
-    }
 }
